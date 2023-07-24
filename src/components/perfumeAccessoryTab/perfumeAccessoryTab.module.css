@@ -1,0 +1,124 @@
+.perfume-accessory-tab {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 20px;
+}
+.accessory-box {
+  background-color: #f6f6f6;
+  margin: 0 auto;
+  width: 50%;
+  padding: 25px;
+  margin-right: 15px;
+  margin-left: 35px;
+
+  display: flex;
+  align-items: center;
+
+  font-family: Display, serif;
+  letter-spacing: -0.04em;
+  font-size: 1.2vw;
+  line-height: 3.2vw;
+}
+.acc-img-box {
+  margin-left: auto;
+}
+.acc-img-box h1 {
+  margin-bottom: 0;
+}
+.accessory-box img {
+  width: 15vw;
+  height: 30vh;
+}
+.accessory-text button {
+  width: 14vw;
+  font-size: 120%;
+  background-color: black;
+  color: #f6f6f6;
+  border-color: gray;
+  transition: all 0.7s;
+}
+.accessory-text button:hover {
+  color: black;
+  background-color: white;
+  border-color: #f6f6f6;
+  transition: all 0.7s;
+}
+
+.perfume-box {
+  background-color: #ffd4d4;
+  margin: 0 auto;
+  width: 50%;
+  padding: 25px;
+  margin-left: 15px;
+  margin-right: 35px;
+
+  display: flex;
+  align-items: center;
+
+  font-family: Display, serif;
+  letter-spacing: -0.04em;
+  font-size: 1.2vw;
+  line-height: 3.2vw;
+}
+.perfume-box h1 {
+  /* margin-left: auto; */
+}
+.perfume-img-box {
+  margin-right: auto;
+}
+.perfume-box img {
+  width: 15vw;
+  height: 30vh;
+}
+.perfume-text button {
+  width: 14vw;
+  font-size: 120%;
+  color: black;
+  background-color: white;
+  border-color: #f6f6f6;
+  transition: all 0.7s;
+}
+.perfume-text button:hover {
+  color: white;
+  background-color: black;
+  border-color: gray;
+  transition: all 0.7s;
+}
+
+@media screen and (max-width: 780px) {
+  .perfume-accessory-tab {
+    display: block;
+  }
+  .perfume-box {
+    width: 100%;
+    transition: all 0.5s;
+    margin: 0 auto;
+  }
+  .accessory-box {
+    width: 100%;
+    transition: all 0.5s;
+    margin: 0 auto;
+  }
+  .perfume-box img {
+    width: 25vw;
+    height: 25vh;
+    transition: all 0.5s;
+  }
+  .accessory-box img {
+    width: 25vw;
+    height: 25vh;
+    transition: all 0.5s;
+  }
+
+  /* text */
+  .accessory-text {
+    width: 50vw;
+    font-size: 1.7vw;
+  }
+  .perfume-text {
+    width: 50vw;
+    font-size: 1.7vw;
+  }
+}

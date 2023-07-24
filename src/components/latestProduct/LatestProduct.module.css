@@ -1,0 +1,36 @@
+/* LATEST PRODUCT */
+.latest-product-bg {
+  background: #f8f8f8;
+  box-sizing: border-box;
+}
+.latest-product-title h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.latest-product-title h3:first-child {
+  margin-top: 40px;
+}
+
+/* 참고 
+각각 1줄씩 늘어지게 + 스타일 추가  */
+/* 25%로 */
+
+@media screen and (max-width: 780px) {
+  .latest-product {
+    width: 24.6%;
+  }
+  .latest-product img {
+    width: 24.5vw;
+    height: 38vw;
+  }
+  .latest-product img:hover {
+    transform: scale(1.05);
+    transition: all 0.6s;
+  }
+
+  .view-more-btn-box button {
+    width: 170px;
+  }
+}
