@@ -3,7 +3,10 @@
 @import "./components//perfumeAccessoryTab/perfumeAccessoryTab.module.css";
 @import "./components/bestProduct/BestProduct.module.css";
 @import "./components/latestProduct/LatestProduct.module.css";
-
+@import "./components//footer/Footer.module.css";
+@import "./styles/routes/detail.module.css";
+@import "./styles/routes/common/MappingProductsAll.module.css";
+@import "./styles/routes/cart.module.css";
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

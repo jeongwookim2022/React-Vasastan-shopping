@@ -1,0 +1,32 @@
+/* CART */
+.cart-badge-num {
+  position: absolute;
+  transform: translate(-4px, 8px);
+}
+.cart-table {
+  padding-top: 80px;
+  height: 70vw;
+}
+
+.td-img-box {
+  display: flex;
+  cursor: pointer;
+}
+.td-img-box img {
+  margin-left: 38%;
+}
+.td-title {
+  margin-left: 5%;
+
+  text-align: left;
+
+  font-family: Playfair Display, serif;
+  letter-spacing: -0.03em;
+}
+
+@media screen and (max-width: 780px) {
+  .cart-table {
+    padding-top: 80px;
+    height: 150vw;
+  }
+}

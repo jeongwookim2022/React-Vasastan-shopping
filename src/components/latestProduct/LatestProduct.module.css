@@ -12,18 +12,127 @@
 .latest-product-title h3:first-child {
   margin-top: 40px;
 }
+.latest-category-box {
+  display: flex;
+}
+.latest-group-category {
+  text-align: left;
+  font-size: 1.5vw;
+  font-family: Playfair Display, serif;
+  letter-spacing: -0.04em;
+  padding-left: 5.5vw;
+  width: 25%;
+  color: #191919;
+  opacity: 0.6;
+}
 
-/* 참고 
-각각 1줄씩 늘어지게 + 스타일 추가  */
-/* 25%로 */
+/* latest PRODUCT */
+.latest-product:hover > .latest-product-text > p {
+  color: pink;
+  transition: all 0.3s;
+}
+
+.latest-product-title h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.latest-product-title h3:first-child {
+  margin-top: 30px;
+}
+
+.groups-all {
+  display: flex;
+}
+.latest-product-group {
+  width: 25%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.latest-product {
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+
+  width: 58%;
+}
+.latest-img-box {
+}
+.latest-product img {
+  width: 10vw;
+  height: 10vw;
+  padding-bottom: 0;
+  cursor: pointer;
+  overflow: hidden;
+}
+.latest-product img:hover {
+  transform: scale(1.022);
+  transition: all 0.6s;
+}
+.latest-product-text {
+  cursor: pointer;
+
+  text-align: left;
+  margin: auto;
+
+  margin-left: 8px;
+  margin-right: 0;
+  margin-bottom: 0;
+
+  white-space: nowrap;
+}
+
+.latest-product-text .filter {
+  font-size: 0.9vw;
+  font-family: Playfair Display, serif;
+  color: #535353;
+  letter-spacing: -0.02em;
+}
+.latest-product-text .title {
+  font-size: 1vw;
+  font-family: Playfair Display, serif;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  margin-top: -4px;
+  margin-bottom: 0;
+}
+.latest-product-text .price {
+  margin-top: 0;
+  color: #191919;
+  font-size: 1.2vw;
+  font-family: Playfair Display, serif;
+}
 
 @media screen and (max-width: 780px) {
+  .latest-group-category {
+    text-align: left;
+    font-size: 1.5vw;
+    font-family: Playfair Display, serif;
+    letter-spacing: -0.04em;
+    padding-left: 2.5vw;
+  }
+
+  .latest-product-group {
+    width: 20%;
+  }
   .latest-product {
-    width: 24.6%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .latest-product-text {
+    margin-left: 5px;
+    font-size: 1.8vw;
+  }
+
+  .latest-product-text .price {
+    margin-left: 0px;
+    font-size: 1.6vw;
   }
   .latest-product img {
-    width: 24.5vw;
-    height: 38vw;
+    width: 14vw;
+    height: 14vw;
   }
   .latest-product img:hover {
     transform: scale(1.05);

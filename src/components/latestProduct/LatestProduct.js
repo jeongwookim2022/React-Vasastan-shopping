@@ -11,7 +11,9 @@ function LatestProduct() {
   const [perfume, setPerfume] = useState([]);
   const setStateList = [setCostume, setAccessory, setShoes, setPerfume];
   const stateList = [costume, accessory, shoes, perfume];
+  const categories = ["Costume", "Accessory", "Shoes", "Perfume"];
 
+  const [test, setTest] = useState(false);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -22,7 +24,7 @@ function LatestProduct() {
         setLoading
       );
     });
-  }, []);
+  }, [setStateList]);
 
   return (
     <>
@@ -30,12 +32,19 @@ function LatestProduct() {
       <div className="latest-product-bg">
         <div className="latest-product-title">
           <h3>━━━</h3>
-          <h2>BEST PRODUCTS</h2>
+          <h2>LATEST PRODUCTS</h2>
           <h3>━━━</h3>
+          <div className="latest-category-box">
+            {categories.map((category, i) => (
+              <div className="latest-group-category">{category}</div>
+            ))}
+          </div>
         </div>
-        {stateList.map((state, i) => (
-          <MappingLatestProducts latest={state} />
-        ))}
+        <div className="groups-all">
+          {stateList.map((state, i) => (
+            <MappingLatestProducts latest={state} />
+          ))}
+        </div>
       </div>
     </>
   );

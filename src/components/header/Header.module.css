@@ -6,28 +6,59 @@
   align-items: center;
   position: fixed;
 
-  z-index: 11;
+  z-index: 1111;
 }
 .header-nav {
   width: 120%;
   height: 10%;
   padding: 10px;
   box-sizing: border-box;
-  z-index: 11;
+  z-index: 1111;
   position: fixed;
   background-color: white;
   opacity: 0.82;
   filter: blur(2px);
   overflow: hidden;
   top: -3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
+}
+.nav-bg h3,
+h5,
+h6 {
+  cursor: pointer;
 }
 .nav-bg h3 {
   font-size: 50px;
   margin-left: 4%;
   margin-right: 40px;
+  font-family: Playfair Display, serif;
 }
-.nav-bg h6 {
+.nav-bg h3:hover {
+  color: rgb(255, 161, 177);
+  transition: all 0.4s;
+}
+.nav-bg h5,
+h6 {
   margin: 0;
   margin-right: 25px;
   text-align: center;
+  font-family: Playfair Display, serif;
+}
+.nav-bg h5:hover,
+.nav-bg h6:hover {
+  color: rgb(255, 161, 177);
+  transition: all 0.4s;
+}
+
+.nav-bg .login {
+  margin-left: auto;
+  margin-top: 7px;
+  font-family: Roboto, sans-serif;
+  margin-right: 10px;
+}
+.nav-bg .cart {
+  margin-top: 8px;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  margin-right: 55px;
 }
