@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# React Online clothes shop(VASASTAN MALL)
+## Click: [DEMO](https://vasastan.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### #React #Html5 #CSS #SCSS #Javascript(ES6) #Redux.js #Styled-Components #Redux-toolkit
 
-## Available Scripts
+### 1. Main page(Desktop)
+- Navbar has the corresponding category tabs.
+![Screenshot (1518)](https://github.com/jeongwookim2022/React-Vasastan-shopping/assets/109917393/2957fef8-ad72-4d39-a2a3-c49224a85229)
+![Screenshot (1519)](https://github.com/jeongwookim2022/React-Vasastan-shopping/assets/109917393/8869c526-8763-4eb8-a2c1-562b2f5a58a2)
+![Screenshot (1520)](https://github.com/jeongwookim2022/React-Vasastan-shopping/assets/109917393/29c11700-3ad4-4217-9202-8e90bc02e9c4)
+![Screenshot (1521)](https://github.com/jeongwookim2022/React-Vasastan-shopping/assets/109917393/e5adae72-e24c-4df1-b91c-a952e1b69b1f)
 
-In the project directory, you can run:
 
-### `npm start`
+### 2. Product Categories with Pagination
+- There are 4 sections; Slides, Perfume, Accessory and Best Products & Latest Products.
+- Implemented the pagination in every items categories as well.
+![Screenshot (1530)](https://github.com/jeongwookim2022/React-Vasastan-shopping/assets/109917393/7fc3891b-d4df-492a-a30b-3c6c9854c5d6)
+![Screenshot (1523)](https://github.com/jeongwookim2022/React-Vasastan-shopping/assets/109917393/a8c48135-840e-452d-88da-b131613f09ae)
+![Screenshot (1527)](https://github.com/jeongwookim2022/React-Vasastan-shopping/assets/109917393/de353d23-aea9-4b69-b23b-45602af35eb5)
+![Screenshot (1528)](https://github.com/jeongwookim2022/React-Vasastan-shopping/assets/109917393/1448116a-fc08-4ca6-bbef-c53d19483d6b)
+![Screenshot (1529)](https://github.com/jeongwookim2022/React-Vasastan-shopping/assets/109917393/9eed0165-3497-418a-a37c-ecb0de53bf8a)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Implemented the Loading component when changing routes or requesting response from API.
+![Screenshot (1532)](https://github.com/jeongwookim2022/React-Vasastan-shopping/assets/109917393/f0f77686-064d-45e7-a70f-94ebc6971787)
+![Screenshot (1531)](https://github.com/jeongwookim2022/React-Vasastan-shopping/assets/109917393/d118bd4a-fc1e-434b-8712-6f90221cf612)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Cart Page & Sign UP, IN page
+- Used Reduxt/Redux-toolkit and localStorage to keep the data like size, color and quantity when item is added into cart.
+![Screenshot (1526)](https://github.com/jeongwookim2022/React-Vasastan-shopping/assets/109917393/360e0758-0804-4892-8469-377427d394f0)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
